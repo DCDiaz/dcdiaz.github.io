@@ -1,5 +1,26 @@
 <html>
+<head>
+    <style type="css">
+        h1 {
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+        }
+
+        .photos {
+            margin: 20px auto;
+            width: 600px;
+        }
+
+        .floatLeft {
+            float: left;
+        }
+    </style>
+</head>
+<body>
     <h1>Dave's Portfolio</h1>
-    <img src="./profile.jpg" style="max-width:300px;">
-    <img src="./backcountry-skiing.jpg" style="max-width:592px;">
+    <div class="photos">
+        <img class="floatLeft" src="./profile.jpg" style="width:300px;">
+        <img class="floatLeft" src="./backcountry-skiing.jpg" style="width:592px;">
+    </div>
+</body>
 </html>

@@ -4,41 +4,35 @@
 }
 
 body {
-    background: #000;
-    color: #FFF;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 header {
-    background: #222;
 }
 
     header nav ul {
-        
     }
 
-.wrapper {
-    max-width: 1280px;
-    margin: 0 auto;
-    padding: 0 4%;
-    width: 100%;
-}
-
 h1 {
-    text-align: center;
 }
 
 img {
-    margin: 20px;
-}
-
-.photos {
-    margin: 20px auto;
-    text-align: center;
-    max-width: 100%;
-    width: 1000px;
 }
 
 .floatLeft {
     float: left;
 }
+
+.bg-grad-1 {
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#00c0ff+0,00ffc0+100 */
+    background: #00c0ff; /* Old browsers */
+    background: -moz-linear-gradient(-45deg,  #00c0ff 0%, #00ffc0 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg,  #00c0ff 0%,#00ffc0 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg,  #00c0ff 0%,#00ffc0 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00c0ff', endColorstr='#00ffc0',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+  }
+
+  footer {
+    padding-bottom: 30px;
+    padding-top: 30px;;
+  }

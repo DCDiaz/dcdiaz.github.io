@@ -7,20 +7,14 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-header {
+a {
+    text-decoration: none;
 }
 
-    header nav ul {
-    }
-
-h1 {
-}
-
-img {
-}
-
-.floatLeft {
+img.floatLeft {
     float: left;
+    margin: 0 20px 0 0;
+    max-width: 55%;
 }
 
 .bg-grad-1 {
